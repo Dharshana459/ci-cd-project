@@ -14,7 +14,7 @@ function App() {
     <div className="page">
       <div className="card">
         <img src={heroImg} className="avatar" alt="Profile" />
-        <h1>Dharshana</h1>
+        <h1>Brindhadevi</h1>
         <p className="bio">Full-stack developer passionate about cloud, DevOps, and modern web apps.</p>
         <div className="skills">
           {skills.map(s => <span key={s} className="badge">{s}</span>)}
